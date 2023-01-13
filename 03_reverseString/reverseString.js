@@ -1,4 +1,6 @@
-const reverseString = function() {
+const reverseString = function(phrase) {
+
+    return phrase.split("").reverse().join("")
 
 };
 
